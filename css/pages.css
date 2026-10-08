@@ -213,3 +213,5 @@ legend{font-weight:700;margin-bottom:12px;color:var(--crown)}
   .ph-grid .ph{min-height:90px}
   .line li{padding-right:16px}
 }
+/* device QA: contact phone is a 44px tap target */
+.phone{display:flex;width:fit-content;align-items:center;min-height:44px}

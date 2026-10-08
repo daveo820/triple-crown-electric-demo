@@ -89,3 +89,14 @@
   .menu-btn{padding:8px 12px}
   .label-card dl div{grid-template-columns:1fr;gap:2px}
 }
+
+/* device QA: 320px phones, keep logo, menu and call button inside the screen; 44px tap targets */
+.mark{min-height:44px}
+@media (max-width:380px){
+  .nav{gap:8px}
+  .mark{gap:8px}
+  .bolt{width:34px;height:34px}
+  .mk b{font-size:.92rem}
+  .menu-btn{padding:8px 10px}
+  .btn--call{padding:10px}
+}
