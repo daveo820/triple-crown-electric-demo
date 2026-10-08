@@ -1,6 +1,6 @@
 # Static page builder for the Triple Crown Electric concept. Run: python3 build.py
 import json, os
-BASE = 'https://daveo820.github.io/triple-crown-electric-demo/'  # temporary GitHub Pages link; swap for Vercel later
+BASE = 'https://triple-crown-electric-demo.vercel.app/'  # Vercel production URL
 TEL, TEL_H = '+19198032023', '(919) 803&#8209;2023'
 GMAPS = 'https://www.google.com/maps/search/?api=1&query=Triple+Crown+Electric+LLC+313+US+70+Hwy+E+Garner+NC'
 TOWNS = ['Garner','Raleigh','Cary','Morrisville','Knightdale','Clayton','Fuquay Varina','Durham','Chapel Hill','Wake Forest']
